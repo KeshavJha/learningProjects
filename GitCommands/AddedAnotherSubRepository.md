@@ -15,3 +15,11 @@ hint:
 hint: 	git rm --cached vueProjects/quickstart-vue
 hint:
 hint: See "git help submodule" for more information.`
+
+
+But actually that didn't work for me .
+
+Removed the .git folder from the subdirectory , but still wasn't able to `git add`
+the files from parent folder ( the  files just didn't get listed).
+Removed the content folders to a new folder , compared to where the project was initiated, and then I saw the files.
+Probably the directory had been added somewhere in the git files.

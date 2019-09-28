@@ -26,4 +26,11 @@ e.g. git remote add origin https://github.com/KeshavJha/learningProjects.git
     `git config user.email <email>`
 
 
-*
+* Configure the files to be excluded using `.git/info/exclude` ( new line for each pattern to exclude ) file and `.git/config` file's `core.excludeFiles` option( comma separated list ) .
+    Prefer the `.git/info/exclude` file .
+
+    ==>> Difference , and details of the two ??
+
+    Add a `.gitignore` at the git repository folder and you can use that file as well
+
+    ==> Again, what is difference between `info/exclude` , `core.excludeFiles` and `.gitignore` options ???
