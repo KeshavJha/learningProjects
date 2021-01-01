@@ -1,0 +1,37 @@
+2020.12.17 01:47:33 INFO  Started: Metals version 0.9.7 in workspace '/Users/keshav.mukund/LearningProjects/scalaLearning' for client vscode.
+2020.12.17 01:47:34 INFO  time: initialize in 0.5s
+2020.12.17 01:47:35 WARN  Build server is not auto-connectable.
+2020.12.17 01:47:35 WARN  no build tool detected in workspace '/Users/keshav.mukund/LearningProjects/scalaLearning'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.17 01:47:35 WARN  no build target for: /Users/keshav.mukund/LearningProjects/scalaLearning/Hello.scala/Hello.scala
+2020.12.17 01:47:38 INFO  no build target: using presentation compiler with only scala-library
+2020.12.17 01:48:58 WARN  no build tool detected in workspace '/Users/keshav.mukund/LearningProjects/scalaLearning'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.17 01:49:12 WARN  no build target for: /Users/keshav.mukund/LearningProjects/scalaLearning/Hello.scala/Hello.scala
+2020.12.17 01:49:19 INFO  
+2020.12.17 01:49:19 INFO  Template applied in /Users/keshav.mukund/LearningProjects/scalaLearning/Hello.scala/./hello-world
+2020.12.17 01:49:19 INFO  
+2020.12.17 01:49:19 INFO  giter8.Giter8 exit: 0
+2020.12.17 01:49:19 INFO  time: ran 'giter8.Giter8' in 5.71s
+Dec 17, 2020 1:49:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.12.17 01:50:05 WARN  no build tool detected in workspace '/Users/keshav.mukund/LearningProjects/scalaLearning'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.17 01:50:49 WARN  no build target for: /Users/keshav.mukund/LearningProjects/scalaLearning/Hello.scala/hello-world/src/main/scala/Main.scala
+2020.12.17 01:53:00 WARN  no build target for: /Users/keshav.mukund/LearningProjects/scalaLearning/Hello.scala/hello-world/build.sbt
+2020.12.17 01:53:12 WARN  no build target for: /Users/keshav.mukund/LearningProjects/scalaLearning/Hello.scala/hello-world/src/main/scala/Main.scala
+2020.12.22 02:50:10 INFO  shutting down Metals
+2020.12.25 22:15:59 INFO  Started: Metals version 0.9.8 in workspace '/Users/keshav.mukund/LearningProjects/scalaLearning' for client vscode.
+2020.12.25 22:15:59 INFO  time: initialize in 0.48s
+2020.12.25 22:16:00 WARN  Build server is not auto-connectable.
+2020.12.25 22:16:00 WARN  no build tool detected in workspace '/Users/keshav.mukund/LearningProjects/scalaLearning'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.25 22:16:00 WARN  no build target for: /Users/keshav.mukund/LearningProjects/scalaLearning/Hello.scala/hello-world/src/main/scala/Main.scala
+2020.12.25 22:16:02 INFO  no build target: using presentation compiler with only scala-library
+Dec 25, 2020 10:16:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Dec 25, 2020 10:16:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Dec 25, 2020 10:16:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Dec 25, 2020 10:16:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Dec 25, 2020 10:16:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2020.12.26 22:55:34 INFO  shutting down Metals

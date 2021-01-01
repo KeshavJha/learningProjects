@@ -1,0 +1,32 @@
+package com.interview.preparations.googleAmazonFacebook;
+
+public class SubArrayWithGivenSum {
+	public static void main(String[] args) {
+		
+	}
+	
+	public int max_sum_subArray( int[] arr, int k) {
+		if(arr == null || k < 1 ) {
+			return 0;
+		} else if (k > arr.length) {
+			return sumArray(arr, 0, arr.length);
+		} else {
+			int left = 0 , right = k , maxSum = sumArray(arr, 0, k);
+			
+		}
+	}
+	
+	public int sumArray(int[] arr, int low, int high) {
+		if(arr == null) {
+			return 0;
+		}
+		if(low < 0 || high > arr.length) {
+			return sumArray(arr, 0 , arr.length);
+		}
+		int sum = 0 ;
+		for ( int i = low ; i <= high ; i++ ) {
+			sum += arr[i];
+		}
+		return sum;
+	}
+}

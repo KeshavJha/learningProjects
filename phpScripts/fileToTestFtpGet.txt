@@ -1,0 +1,1 @@
+File to get during ftp script get
