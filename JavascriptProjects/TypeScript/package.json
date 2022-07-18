@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Testing Typescript learnings while coding them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keshavjha",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.5"
+  }
+}
