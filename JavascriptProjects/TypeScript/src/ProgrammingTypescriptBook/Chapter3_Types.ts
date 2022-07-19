@@ -7,7 +7,8 @@ let boolTrueValue: boolean = true  // this type is not supported on this system 
 
 
 // Declaring arrays 
-// let a = [1,"next", true];
+let a = [1,"next", true]; // This is conflicting with a declared in index.ts , Both this and index.ts are not modules
+// So variables declared in these files conflict, as both are globally scoped
 let b = [1,2,3]
 console.log(typeof a)
 
