@@ -1,6 +1,6 @@
 * Adding a git remote repository
 `git remote add <name> <url>`
-e.g. git remote add origin https://github.com/KeshavJha/learningProjects.git
+e.g. git remote add origin https://github.com/<user_name>/learningProjects.git
 
 * Amend current commit
 `git commit --amend`
@@ -22,8 +22,8 @@ e.g. git remote add origin https://github.com/KeshavJha/learningProjects.git
     git config core.excludeFiles .DS_Store,node_moules/
 
   * configure username and email for project
-    `git config user.name KeshavJha`
-    `git config user.email <email>`
+    `git config user.name <user_name>`
+    `git config user.email <user_email>`
 
 
 * Configure the files to be excluded using `.git/info/exclude` ( new line for each pattern to exclude ) file and `.git/config` file's `core.excludeFiles` option( comma separated list ) .
