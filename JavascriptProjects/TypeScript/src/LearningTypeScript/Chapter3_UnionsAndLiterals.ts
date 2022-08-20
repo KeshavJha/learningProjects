@@ -29,3 +29,11 @@ mixedLiteral = "value1"
 mixedLiteral = "value2"
 mixedLiteral = 90
 mixedLiteral = "value3" // ERROR: not allowed 
+
+// Declaring types
+type booleanNumber = boolean | number
+type boolNumberString = booleanNumber | strinng
+let variable2 : boolNumberString = "hello";
+variable2.toUpperCase();
+variable2 = 23
+variable2.toUpperCase();

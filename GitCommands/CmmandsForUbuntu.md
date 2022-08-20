@@ -30,6 +30,24 @@ Update the system : `sudo apt-get update`
 `npm audit fix --force`  ::====>> fix any vulnerabilities found in audit
 
 
+# Typescript commands 
+`npm i -g typescript`   ::====>>    Install Typescript , tsc ( typescript compiler ) 
+
+`tsc --version`   ::====>>    Verify typescript version
+
+`tsc index.ts`  Compile the index.ts file to index.js
+
+`node index.js`  Run the js file in node environment
+
+`npm i -g ts-node`  Install ts-node package to run .ts files in node env
+
+`ts-node index.ts`  Run the index.ts file
+
+# ReactJS commands 
+`npm i -g create-react-app`   ::====>>    Install React project creation app 
+
+`npx-create-react-app project1`   ::====>>    Create a React app. Project name can't have capital letters. Only small letters, and hyphen
+
 # Install Git 
 `sudo apt-get install git`
 
