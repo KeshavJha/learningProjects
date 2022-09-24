@@ -17,5 +17,5 @@ class ImplementingClass implements ExtendingInterface {
 }
 
 let impl: ImplementingClass = new ImplementingClass();
-console.log(impl.computeLength(impl.printHello("Keshav Jha")))
-console.log(impl.computeLength(impl.printHello("Sikha Jha")))
+console.log(impl.computeLength(impl.printHello("Mr. User1 Jha")))
+console.log(impl.computeLength(impl.printHello("Mrs. User2 Jha")))
