@@ -1,9 +1,11 @@
+import java.io.IOException;
+
 public class CentimetersToInches {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
     double centimeters ;
     System.out.println("Enter the value to convert");
     //@TODO How to read input entered here ??? Need to really understand the input and output stream and buffers this time
-    centimeters = System.in.read( /* How to read input entered here ??? */);
+    centimeters = System.in.read( );
     System.out.println("Value in inches would be : " + centimeters / 2.54 );
   }
 }

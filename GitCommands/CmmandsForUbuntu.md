@@ -59,13 +59,7 @@ Update the system : `sudo apt-get update`
 
 `git config --list`
 
-# Install JDK :
-`sudo apt-get install default-jdk`
-
-
-# Install Pthon : 
-
-`sudo apt install python3`
+# Configure Git for passwordless SSH
 
 `ssh-keygen -t ed25519 -C "<user_email>"`
 
@@ -86,7 +80,19 @@ git clone git@github.com:<user_name>/learningProjects
 Configure Branch protection rules in Github --  github.com/<user_name>/<ProjectName>/settings/branches
 Can enfore commits to have signatures etc.
 
+# Install JDK :
+`sudo apt-get install default-jdk`
 
+
+# Install Pthon : 
+
+`sudo apt install python3`
+`python3 --version`
+
+`sudo apt install python3-pip`
+`pip --version`
+
+`pip3 install jupyter` -- pip3 is required to install jupyter for python 3, pip installs for 
 
 
 # Ubuntu Commands 
