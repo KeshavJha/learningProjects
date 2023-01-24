@@ -1,4 +1,4 @@
 package javaExamples.topics.collections;
 
-public class MapExamples {
+public class QueueEgs {
 }

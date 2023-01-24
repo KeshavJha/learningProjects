@@ -2,7 +2,7 @@ package javaExamples.topics.collections;
 
 import java.util.*;
 
-public class ListsExamples {
+public class ListsEgs {
     List<String> strList = new ArrayList<>();
 
     public static void main(String[] args) {

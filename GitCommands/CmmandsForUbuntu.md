@@ -83,8 +83,12 @@ Can enfore commits to have signatures etc.
 # Install JDK :
 `sudo apt-get install default-jdk`
 
+# Install Gradle and mvn
+`sudo apt install mvn`
+`sudo apt install gradle`
 
-# Install Pthon : 
+
+# Install Python : 
 
 `sudo apt install python3`
 `python3 --version`
@@ -94,6 +98,8 @@ Can enfore commits to have signatures etc.
 
 `pip3 install jupyter` -- pip3 is required to install jupyter for python 3, pip installs for 
 
+#Install new JDK in IntelliJ Idea : 
+File -> Project -> 
 
 # Ubuntu Commands 
 `shutdown -P`  ---- shutdown Ubuntu

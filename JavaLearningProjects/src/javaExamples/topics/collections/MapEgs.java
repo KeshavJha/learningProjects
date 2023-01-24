@@ -1,4 +1,4 @@
 package javaExamples.topics.collections;
 
-public class SetExamples {
+public class MapEgs {
 }

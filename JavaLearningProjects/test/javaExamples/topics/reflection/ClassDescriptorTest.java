@@ -1,2 +1,5 @@
-package javaExamples.topics.reflection;public class ClassDescriptorTest {
+package javaExamples.topics.reflection;
+
+public class ClassDescriptorTest {
+
 }
