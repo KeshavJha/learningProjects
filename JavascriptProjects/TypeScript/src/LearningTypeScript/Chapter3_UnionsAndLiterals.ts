@@ -1,4 +1,6 @@
 let varUninion_1 = Math.random() > 0.5 ? undefined : "Mark Goldberg";
+console.log(varUninion_1?.toLowerCase())
+//console.log(varUninion_1.)
 console.log(typeof varUninion_1) // type is narrowed to udefined
 console.log("varUninion_1 :", varUninion_1)
 varUninion_1 = "Hello Word" // Type is narrowed to string now
@@ -9,6 +11,7 @@ console.log(typeof var2)
 // var2.toUpperCase() // var2's type is narrowed to number , so string functions are not available
 var2 = "hello"
 console.log(typeof var2) // now var2 is string
+var2 = true // can't assign bool to number | string
 
 // Variables without initial value
 let uninitVar:string
@@ -28,12 +31,12 @@ let mixedLiteral: number | "value1" | "value2"
 mixedLiteral = "value1"
 mixedLiteral = "value2"
 mixedLiteral = 90
-mixedLiteral = "value3" // ERROR: not allowed 
+mixedLiteral = "value3" // ERROR: not allowed , only "value1 and value2" string values are allowed
 
 // Declaring types
 type booleanNumber = boolean | number
-type boolNumberString = booleanNumber | strinng
+type boolNumberString = booleanNumber | string
 let variable2 : boolNumberString = "hello";
 variable2.toUpperCase();
 variable2 = 23
-variable2.toUpperCase();
+variable2.toUpperCase(); // a number now

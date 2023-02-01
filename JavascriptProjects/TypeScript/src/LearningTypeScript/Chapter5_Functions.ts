@@ -1,7 +1,4 @@
 
-
-
-
 // Optional parameters 
 function ratingOptional ( deliveryId: string, rating : number = 5.0) {
     console.log(`${deliveryId} is assigned optional rating: ${rating}` )  /// Observe the back quotes evaluate ${}
