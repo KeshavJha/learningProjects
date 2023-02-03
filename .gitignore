@@ -1,3 +1,7 @@
 JavaLearningProjects/out/
 JavaLearningProjects/.idea/
 JavaLearningProjects/JavaLearningProjects.iml
+JavaLearningProjects/.gradle/
+JavaLearningProjects/gradle/
+JavaLearningProjects/gradlew
+JavaLearningProjects/gradlew.bat
