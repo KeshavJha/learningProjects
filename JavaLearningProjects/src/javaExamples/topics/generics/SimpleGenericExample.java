@@ -73,4 +73,30 @@ public class SimpleGenericExample {
         numbersList.addAll(integerList);
         numbersList.addAll(doublesList);
     }
+
+    public static void comparablesExamples() {
+//        Compara
+    }
 }
+
+class SuperClass {}
+//class SubClass1 extends SuperClass implements Comparable<? extends SubClass1> {
+//    @Override
+//    public int compareTo(SubClass1 subClass1) {
+//        return 0;
+//    }
+//}
+//class SubClass2<T> extends SuperClass implements Comparable<T extends SubClass2> {
+//
+//    @Override
+//    public int compareTo(T t) {
+//        return 0;
+//    }
+//}
+//class Subclass3 extends SuperClass implements Comparable<SubClass1> , Comparable<SubClass2> , Comparable<Subclass3>, Comparable<SuperClass> {
+//
+//    @Override
+//    public int compareTo(SuperClass superClass) {
+//        return 0;
+//    }
+//}
